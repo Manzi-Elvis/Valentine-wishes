@@ -14,7 +14,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="relative bg-pink-100 text-gray-800">
+      <body className="relative min-h-screen overflow-hidden bg-gradient-to-br from-[#ff758f] via-[#ffb3c1] to-[#ffd6e0] text-gray-800">
         <HeartBackground />
         {children}
       </body>
