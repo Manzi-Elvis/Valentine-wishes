@@ -38,7 +38,7 @@ export default function ValentinePage() {
       <div className="min-h-screen bg-gradient-to-br from-pink-50 via-purple-50 to-rose-50 flex items-center justify-center">
         <div className="text-center">
           <div className="text-6xl mb-4 animate-bounce">❤️</div>
-          <p className="text-xl text-gray-700">Loading your love letter...</p>
+          <p className="text-xl text-gray-700">Your love letter...</p>
         </div>
       </div>
     )
