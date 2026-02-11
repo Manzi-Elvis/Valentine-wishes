@@ -14,7 +14,7 @@ export default function Confetti() {
   const [confetti, setConfetti] = useState<ConfettiPiece[]>([])
 
   useEffect(() => {
-    const emojis = ['❤️', '💖', '✨', '🥰', '💝', '🌹', '💕','💞', '⭐']
+    const emojis = ['❤️', '💖', '✨', '🥰', '💝', '🌹', '💕','💞','👩‍❤️‍💋‍👨', '⭐']
 
     const pieces: ConfettiPiece[] = Array.from({ length: 50 }).map((_, i) => ({
       id: i,
