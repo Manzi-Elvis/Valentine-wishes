@@ -118,7 +118,7 @@ export default function ValentineSetup({ onSubmit }: ValentineSetupProps) {
 
             {/* Song Selection */}
             <div>
-              <label className="block text-sm font-semibold text-gray-700 mb-3 flex items-center gap-2">
+              <label className="text-sm font-semibold text-gray-700 mb-3 flex items-center gap-2">
                 <Music className="w-4 h-4 text-purple-600" />
                 Background Music
               </label>
